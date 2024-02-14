@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+
 * {
     margin: 0;
     padding: 0;
@@ -16,14 +18,14 @@ body {
 
 .container-content {
     width: 50%;
-    height: 1000px;
+    height: auto; 
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
 }
 
-.container-content img {
+.container-content img { 
     margin-top: 30px;
     border-radius: 10px;
     width: 90%;
@@ -36,7 +38,7 @@ body {
 }
 
 .content {
-   max-width: 600px;
+   max-width: 600px; 
 }
 
 .content h1 {
@@ -53,12 +55,112 @@ body {
     color: hsl(30, 10%, 34%);
 }
 
-
-/*
 .table {
+    display: flex;
     margin-top: 30px;
     max-width: 90%;
+    height: 170px;
+    border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
 }
 
-*/
+.table-content {
+    position: relative;
+    left: 30px;
+}
+
+.table-content h3 {
+    margin-top: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: young, serif;
+}
+
+.table-content ul > li {
+    position: relative;
+    left: 30px;
+    margin-top: 15px;
+}
+
+.table-content li {
+    position: relative;
+    left: 30px;
+    color: hsl(30, 10%, 34%) 
+}
+
+.ingredients-content {
+    margin-top: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.ingredients h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul > li {
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+}
+
+ul > li {
+    padding-left: 20px; /* ESPACE DE 20px */
+}
+
+hr {
+    width: 90%;
+    position: relative;
+    left: 20px;
+    margin-top: 30px;
+}
+
+
+/*   PARTIE INSTRUCTIONS   */
+.instructions-container {
+    margin-top: 30px;
+    position: relative;
+    left: 20px; 
+    max-width: 550px;
+}
+
+.instructions-container h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-container ol > li {
+    position: relative; 
+    left: 20px;
+    margin-top: 20px;
+}
+
+.instructions-container ol li {
+    padding-left: 20px; /* Espace de  20px entre les éléments d'une liste */
+}
+
+
+/*   PARTIE NUTRITIONS   */
+.nutrition-container {
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.nutrition-container h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-container p { 
+    margin-top: 20px;
+}
+
+.table-nutrition {
+    margin-top: 30px;
+    position: relative;
+    left: 20px;
+}
+
+.table-nutritional-number {
+    padding-left: 260px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
