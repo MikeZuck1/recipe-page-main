@@ -1,4 +1,43 @@
-@import url(https://fonts.google.com/specimen/Young+Serif);
+/* # Front-end Style Guide  */
+
+/* ## Layout  */
+
+/* The designs were created to the following widths:  */
+
+/* - Mobile: 375px  */
+/* - Desktop: 1440px   */
+
+/* ## Colors   */
+
+/* ### Primary  */
+
+/* - Nutmeg: hsl(14, 45%, 36%)  */
+/* - Dark Raspberry: hsl(332, 51%, 32%)  */
+
+/* ### Neutral  */
+
+/* - White: hsl(0, 0%, 100%)  */
+/* - Rose White: hsl(330, 100%, 98%)  */
+/* - Eggshell: hsl(30, 54%, 90%)  */
+/* - Light Grey: hsl(30, 18%, 87%)  */
+/* - Wenge Brown: hsl(30, 10%, 34%)  */
+/* - Dark Charcoal: hsl(24, 5%, 18%)  */
+
+/* ## Typography  */
+
+/* ### Body Copy  */
+
+/* - Font size (paragraph): 16px  */
+
+/* ### Fonts  */
+
+/* - Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)  */
+/* - Weights: 400  */
+
+/* - Family: [Outfit](https://fonts.google.com/specimen/Outfit)  */
+/* - Weights: 400, 600, 700  */
+
+/* @import url(https://fonts.google.com/specimen/Young+Serif);  */
 
 * {
     margin: 0;
@@ -7,13 +46,18 @@
 }
  
 body {
-    background-color: hsl(30, 54%, 90%);   
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+}
+
+.hr-separate-container {
+    width: 85%;
 }
 
 .container {
     display: flex; 
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     max-width: 100%;
 }
 
@@ -111,7 +155,7 @@ ul > li {
 }
 
 hr {
-    width: 90%;
+    width: 130%;
     position: relative;
     left: 20px;
     margin-top: 30px;
